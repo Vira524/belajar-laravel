@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('beranda', function () {
+    return view('main');
+});
+
+Route::get('gallery', function () {
+    return view('gallery');
+});
+
+Route::get('profile', function () {
+    return view('profile');
+});
