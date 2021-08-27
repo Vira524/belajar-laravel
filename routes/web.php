@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('/posts', 'PostsController');
+
 Route::get('beranda', function () {
     return view('main');
 });
